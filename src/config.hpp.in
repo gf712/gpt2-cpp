@@ -1,0 +1,5 @@
+#include <string_view>
+
+static constexpr std::string_view vocab_file = "@VOCAB_FILE@";
+static constexpr std::string_view merges_file = "@MERGES_FILE@";
+static constexpr std::string_view model_file = "@ONNX_FILE@";
